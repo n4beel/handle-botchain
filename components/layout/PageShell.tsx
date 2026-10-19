@@ -30,16 +30,10 @@ export default function PageShell({ children, nav = [], title, description }: Pa
     <div className="flex flex-col" style={{ minHeight: "100dvh" }}>
       <header className="flex items-center justify-between gap-3 px-5 md:px-8 py-5 flex-shrink-0">
         <Link href="/" className="flex items-center gap-2.5 no-underline">
-          <span
-            aria-hidden="true"
-            style={{
-              width: "22px",
-              height: "22px",
-              borderRadius: "999px",
-              background: "var(--accent)",
-              boxShadow: "0 0 18px rgba(167,123,243,0.6)",
-            }}
-          />
+          <svg aria-hidden="true" viewBox="0 0 100 100" style={{ width: "23px", height: "23px" }}>
+            <circle cx="50" cy="50" r="38" fill="none" stroke="var(--accent)" strokeWidth="4" opacity="0.45" />
+            <circle cx="50" cy="50" r="26" fill="var(--accent)" />
+          </svg>
           <span className="text-[17px] font-semibold tracking-[-0.02em]">{app.name}</span>
         </Link>
 
