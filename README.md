@@ -11,11 +11,15 @@ Claim a .bot name that points at your address. First come, first served, and per
 | Contract | [`0x57cA7509D04a812F3F4dcBA59ac7dee762c62AcC`](https://scan.bohr.life/address/0x57cA7509D04a812F3F4dcBA59ac7dee762c62AcC) · source verified |
 | Deploy block | 27061721 |
 
-### BOT Chain mainnet (677) — not yet deployed
+### BOT Chain mainnet (677) — live
 
-Mainnet is the only network the listing bar accepts. The site currently targets Bohr, and the
-network badge reads **Testnet** in amber so a screenshot from it can never be mistaken for
-listing proof.
+| | |
+|---|---|
+| Contract | [`0x57cA7509D04a812F3F4dcBA59ac7dee762c62AcC`](https://scan.botchain.ai/address/0x57cA7509D04a812F3F4dcBA59ac7dee762c62AcC) · source verified |
+| Deploy block | 27267129 |
+
+The site targets mainnet. The Bohr deployment above stays up and stays documented, so the
+contract can still be exercised somewhere mistakes are free.
 
 ---
 
